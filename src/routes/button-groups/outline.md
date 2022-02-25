@@ -36,7 +36,7 @@ layout: doc
 </script>
 
 
-<h1 class="text-3xl w-full mb-8 text-gray-900 dark:text-white">Button groups</h1>
+<h1 class="text-3xl w-full mb-8 text-gray-900 dark:text-white">Outline Button Group</h1>
 
 <h2 class="text-2xl w-full text-gray-900 dark:text-white">Setup</h2>
 

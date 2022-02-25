@@ -17,7 +17,7 @@
     buttonGroups,
     cards,
     // darkmode,
-    // icons,
+    icons,
     // list_group,
     modals,
     navbar,
@@ -131,6 +131,9 @@
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4"><a href="/icons" rel="external">Icons</a></h3>
+    {#each icons as { url, name, rel }}
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
+    {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4">

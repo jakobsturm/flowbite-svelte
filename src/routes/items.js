@@ -33,7 +33,7 @@ export let buttons = [
 
 export let buttonGroups = [
   { url: "button-groups/default", name: "Button group" },
-  { url: "button-groups/outline", name: "Outline" },
+  { url: "button-groups/outline", name: "Outline button group" },
 ];
 
 export let cards = [
@@ -50,9 +50,10 @@ export let cards = [
 //   { url: "darkmode", name: "Dark mode" },
 // ]
 
-// export let icons = [
-//   { url: "icons", name: "Heroicons" },
-// ]
+export let icons = [
+  { url: "icons/heroicons", name: "Heroicons" },
+  { url: "icons/simple-icons", name: "Simple-icons" },
+]
 
 // export let list_group = [
 //   { url: "list-group", name: "List group" },
