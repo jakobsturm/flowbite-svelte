@@ -4,7 +4,11 @@ layout: doc
 
 <script>
   import {
+    AdjustmentsIconSolid,
+    BellIconOutline,
+    BriefcaseIconSolid,
     TicketIconOutline,
+    ChartSquareBarIconSolid,
     CameraIconOutline,
     BellIconSolid,
     ChevronLeftIconSolid,
@@ -21,6 +25,16 @@ You can find all the icon names from the <a class="text-blue-600 hover:underline
 <h2 class="text-2xl w-full dark:text-white mt-8">Examples</h2>
 
 <div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
+
+
+<AdjustmentsIconSolid className="h-10 w-10 text-blue-500 dark:text-blue-300" />
+
+<BellIconOutline  className="h-10 w-10 text-blue-500 dark:text-purple-300" />
+
+<BriefcaseIconSolid  className="h-10 w-10 text-blue-500 dark:text-indigo-300" />
+
+<ChartSquareBarIconSolid className="h-10 w-10 text-blue-500 dark:text-red-300" />
+
 
 <TicketIconOutline className="h-10 w-10 text-blue-500 dark:text-yellow-300" />
 
