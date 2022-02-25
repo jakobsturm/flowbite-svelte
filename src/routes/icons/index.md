@@ -50,7 +50,11 @@ You can find all the icon names from the <a class="text-blue-600 hover:underline
 ```svelte
 <script>
 import {
+  AdjustmentsIconSolid,
+  BellIconOutline,
+  BriefcaseIconSolid,
   TicketIconOutline,
+  ChartSquareBarIconSolid,
   CameraIconOutline,
   BellIconSolid,
   ChevronLeftIconSolid,

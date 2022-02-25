@@ -1,7 +1,7 @@
 {
   "name": "Flowbite Svelte Demo",
   "version": "0.5.4",
-  "description": "Svelte +  Flowbite/TailwindCSS  components",
+  "description": "Flowbite components for Svelte",
   "author": {
     "name": "Shinichi Okada",
     "email": "connect@codewithshin.com",
