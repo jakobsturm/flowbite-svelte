@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { SignInCard } from "svelte-flow";
+  import { SignInCard } from "flowbite-svelte";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">SignInCard: Setup</h1>
@@ -12,7 +12,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { SignInCard } from "svelte-flow";
+  import { SignInCard } from "flowbite-svelte";
 </script>
 ```
 

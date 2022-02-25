@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { Button } from "svelte-flow";
+  import { Button } from "flowbite-svelte";
 </script>
 
 <h1 class="text-3xl w-full text-gray-900 dark:text-white">Button Props</h1>

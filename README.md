@@ -1,4 +1,4 @@
-# SVELTE-FLOW
+# FLOWBITE SVELTE
 
 ## Installation
 

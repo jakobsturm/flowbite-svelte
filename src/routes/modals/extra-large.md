@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { ModalButton, ExtraLargeModal, modalIdStore } from "svelte-flow";
+  import { ModalButton, ExtraLargeModal, modalIdStore } from "flowbite-svelte";
 
   const closeModal = () => {
     modalIdStore.update((value) => {
@@ -49,7 +49,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { ModalButton, ExtraLargeModal, modalIdStore } from "svelte-flow";
+  import { ModalButton, ExtraLargeModal, modalIdStore } from "flowbite-svelte";
 
   const closeModal = () => {
     modalIdStore.update((value) => {

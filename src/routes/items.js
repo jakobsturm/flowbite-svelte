@@ -82,7 +82,7 @@ export let topMenus = [
   { link: "/", name: "Home" },
   { link: "/about", name: "About" },
   {
-    link: "https://github.com/shinokada/svelte-flow",
+    link: "https://github.com/shinokada/flowbite-svelte",
     name: "GitHub"
   },
 ];

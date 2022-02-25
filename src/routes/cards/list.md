@@ -1,5 +1,5 @@
 <script>
-  import { ListCard } from "svelte-flow";
+  import { ListCard } from "flowbite-svelte";
 </script>
 
 <div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">

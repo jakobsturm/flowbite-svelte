@@ -13,7 +13,7 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white mb-4">HeroIcons</h1>
 
-<p class=" dark:text-white">Svelte-flow uses <a class="text-blue-600 hover:underline dark:text-blue-500" href="https://github.com/shinokada/svelte-heroicons" target="_blank">svelte-heroicons</a>.
+<p class=" dark:text-white">flowbite-svelte uses <a class="text-blue-600 hover:underline dark:text-blue-500" href="https://github.com/shinokada/svelte-heroicons" target="_blank">svelte-heroicons</a>.
 You can find all the icon names from the <a class="text-blue-600 hover:underline dark:text-blue-500" href="https://github.com/shinokada/svelte-heroicons/blob/main/icon-names.md">repo</a>.</p>
 
 <p class=" dark:text-white">Svelte-heroicons allow you to change icon color and size by using TailwindCSS/Flowbite.</p>

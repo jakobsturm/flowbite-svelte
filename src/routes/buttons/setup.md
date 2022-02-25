@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { Button } from "svelte-flow";
+  import { Button } from "flowbite-svelte";
   const btn1 = ()=>{
     alert('You clicked btn1.')
   }
@@ -20,7 +20,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { Button } from "svelte-flow";
+  import { Button } from "flowbite-svelte";
 </script>
 ```
 
@@ -30,7 +30,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { Button } from "svelte-flow";
+  import { Button } from "flowbite-svelte";
   const btn1 = ()=>{
     alert('You clicked btn1.')
   }

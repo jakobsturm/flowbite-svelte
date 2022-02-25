@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { Navbar } from "svelte-flow";
+  import { Navbar } from "flowbite-svelte";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Navbar Setup</h1>
@@ -11,10 +11,10 @@ layout: doc
 
 ```svelte
 <script>
-  import { Navbar } from "svelte-flow";
-  let sitename = "Svelte-flow";
+  import { Navbar } from "flowbite-svelte";
+  let sitename = "flowbite-svelte";
   let logo = "/images/mkdir-logo.webp";
-  let alt = "Svelte-flow";
+  let alt = "flowbite-svelte";
   let textsize = "text-lg";
   let menus = [
     {
@@ -29,7 +29,7 @@ layout: doc
     },
     {
       name: "Design",
-      link: "https://svelte-flow.vercel.app",
+      link: "https://flowbite-svelte.vercel.app",
       rel: undefined,
     },
   ];

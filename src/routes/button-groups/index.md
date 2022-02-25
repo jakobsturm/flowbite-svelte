@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import {ButtonGroup, ButtonGroupOutline} from 'svelte-flow'
+  import {ButtonGroup, ButtonGroupOutline} from 'flowbite-svelte'
   import {UserCircleIconSolid, AdjustmentsIconSolid, CloudDownloadIconSolid} from "@codewithshin/svelte-heroicons"
   let buttons1 = [
   {
@@ -42,7 +42,7 @@ layout: doc
 
 ```svelte
 <script>
-  import {ButtonGroup, ButtonGroupOutline} from 'svelte-flow'
+  import {ButtonGroup, ButtonGroupOutline} from 'flowbite-svelte'
   import {UserCircleIconSolid, AdjustmentsIconSolid, CloudDownloadIconSolid} from "@codewithshin/svelte-heroicons"
   let buttons1 = [
   {

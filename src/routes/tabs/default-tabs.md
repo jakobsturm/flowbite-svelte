@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { DefaultTabs } from "svelte-flow";
+  import { DefaultTabs } from "flowbite-svelte";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Default Tabs</h1>
@@ -11,7 +11,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { DefaultTabs } from "svelte-flow";
+  import { DefaultTabs } from "flowbite-svelte";
 </script>
 
 <DefaultTabs />

@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { InteractiveTabs } from "svelte-flow";
+  import { InteractiveTabs } from "flowbite-svelte";
   let tabs1 = [
     {
       label: "Profile-1",
@@ -40,7 +40,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { InteractiveTabs } from "svelte-flow";
+  import { InteractiveTabs } from "flowbite-svelte";
   let tabs1 = [
     {
       label: "Profile-1",

@@ -30,10 +30,10 @@ npm run dev
 npm i -D svelte-preprocess   
 ```
 
-<p class="dark:text-white">Install svelte-flow:</p>
+<p class="dark:text-white">Install flowbite-svelte:</p>
 
 ```sh
-npm i -D svelte-flow
+npm i -D flowbite-svelte
 ```
 
 <p class="dark:text-white">Add the following in the script tag in the __layout.svelte:</p>
@@ -53,7 +53,7 @@ npm i -D svelte-flow
 const config = {
   content: [
     "./src/**/*.{html,js,svelte,ts}",
-    "./node_modules/svelte-flow/**/*.{html,js,svelte,ts}",
+    "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}",
   ],
   ...
 ```

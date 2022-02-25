@@ -3,18 +3,24 @@ layout: doc
 ---
 
 <script>
-  import {Badge} from 'svelte-flow'
+  import {Badge} from 'flowbite-svelte'
 </script>
 
 
 <h1 class="text-3xl w-full mb-8 text-gray-900 dark:text-white">Badges</h1>
 
+```svelte
+<script>
+  import {Badge} from 'flowbite-svelte'
+</script>
+```
+
 <h2 class="text-2xl w-full text-gray-900 dark:text-white">Props</h2>
 
-```svelte
+```js
 let textSize = "text-xs"; // text-sm
 let name = "Read more";
-let color = "blue"; // blue | gray | green | yellow | indigo | purple | pink  
+let color = "blue"; // gray | red | green | yellow | indigo | purple | pink
 ```
 
 <h2 class="text-2xl w-full text-gray-900 dark:text-white">Size xs</h2>

@@ -3,8 +3,8 @@ layout: doc
 ---
 
 <script>
-  import { Accordion } from "svelte-flow";
-  import { AccordionItem } from "svelte-flow";
+  import { Accordion } from "flowbite-svelte";
+  import { AccordionItem } from "flowbite-svelte";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Accordion</h1>
@@ -130,8 +130,8 @@ body
 
 ```svelte
 <script>
-  import { Accordion } from "svelte-flow";
-  import { AccordionItem } from "svelte-flow";
+  import { Accordion } from "flowbite-svelte";
+  import { AccordionItem } from "flowbite-svelte";
 </script>
 
 <Accordion>

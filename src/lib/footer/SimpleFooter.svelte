@@ -1,6 +1,6 @@
 <script>
   export let link = undefined;
-  export let siteName = "Svelte flow";
+  export let siteName = "Flowbite Svelte";
   export let links = [
     { name: "About", link: "about", rel: undefined },
     { name: "Privacy Policy", link: "policy", rel: undefined },

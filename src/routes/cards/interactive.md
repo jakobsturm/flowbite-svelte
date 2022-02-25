@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { InteractiveCard } from "svelte-flow";
+  import { InteractiveCard } from "flowbite-svelte";
   let dropdownLinks = [
     {
       href: "/#",
@@ -32,7 +32,7 @@ layout: doc
 
 ```html
 <script>
-  import { InteractiveCard } from "svelte-flow";
+  import { InteractiveCard } from "flowbite-svelte";
   let dropdownLinks = [
     {
       href: "/#",

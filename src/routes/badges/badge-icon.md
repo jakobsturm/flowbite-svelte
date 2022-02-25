@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import {BadgeIcon} from 'svelte-flow'
+  import {BadgeIcon} from 'flowbite-svelte'
   import {InformationCircleIconOutline} from '@codewithshin/svelte-heroicons'
   let link="/"
 </script>
@@ -15,7 +15,7 @@ layout: doc
 
 ```svelte
 <script>
-  import {BadgeIcon} from 'svelte-flow'
+  import {BadgeIcon} from 'flowbite-svelte'
   import {InformationCircleIconOutline} from '@codewithshin/svelte-heroicons'
   let link="/"
 </script>
@@ -23,7 +23,7 @@ layout: doc
 
 <h2 class="text-2xl w-full text-gray-900 dark:text-white my-8">Props</h2>
 
-```svelte
+```js
 let textSize = "text-xs"; // text-sm
 let name = "Read more";
 let color = "blue";

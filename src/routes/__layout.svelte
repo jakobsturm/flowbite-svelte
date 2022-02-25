@@ -1,7 +1,7 @@
 <script>
   import "../app.css";
   import "flowbite/dist/flowbite.css";
-  import { DarkMode } from "svelte-flow";
+  import { DarkMode } from "flowbite-svelte";
   import {
     Aside,
     Nav,
@@ -33,7 +33,7 @@
     "block py-2 pr-4 pl-3  text-gray-700 border-b border-gray-100 md:border-0 md:p-0 text-lg dark:text-white";
   let headerClass =
     "px-8 bg-white h-16 pt-3 text-gray-600 border-b-2 bg-white dark:bg-gray-800 dark:text-white dark:border-b-1";
-  let siteName = "Svelte Flow";
+  let siteName = "Flowbite Svelte";
   let navClass =
     "py-0 px-8 bg-white text-lg bg-white dark:bg-gray-800 dark:text-white";
   let navDivClass = "pb-4";
@@ -70,7 +70,9 @@
 />
 <Aside {asideClass}>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/" rel="external">Svelte-Flow</a></h3>
+    <h3 class="text-base pb-4">
+      <a href="/" rel="external">Flowbite Svelte</a>
+    </h3>
     {#each svelteflows as { url, name, rel }}
       <SidebarList {url} {name} {rel} {sideBarListClass} />
     {/each}

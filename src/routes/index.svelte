@@ -1,5 +1,5 @@
 <script>
-  import { Card } from "svelte-flow";
+  import { Card } from "flowbite-svelte";
 </script>
 
 <div class="relative bg-white overflow-hidden mt-8 mx-auto dark:bg-gray-800">
@@ -8,21 +8,22 @@
       class="relative z-10 pb-8 bg-transparent sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 "
     >
       <main
-        class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
+        class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-16"
       >
         <div class="sm:text-center lg:text-left">
           <h1
             class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl dark:text-white"
           >
-            <span class="block xl:inline">Svelte Flow </span>
+            <span class="block xl:inline">Flowbite Svelte </span>
             <span class="block text-indigo-600 xl:inline">UI Component</span>
           </h1>
           <p
             class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg 
-            md:max-w-xl sm:max-w-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-0 dark:text-white"
+            md:max-w-sm sm:max-w-sm sm:mx-auto md:mt-5 md:text-xl lg:mx-0 dark:text-white"
           >
-            Speed up your web development with Svelte Flow. Svelte Flow is
-            powered by Tailwind CSS / Flowbite.
+            Speed up your web development with Flowbite Svelte. Flowbite Svelte
+            is an unofficxial Flowbite compoents for Svelte. All interactiveity
+            is done by Svelte.
           </p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div class="mt-3 sm:mt-0 sm:ml-3">
@@ -38,9 +39,9 @@
       </main>
     </div>
   </div>
-  <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-5/12">
+  <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-5/12 pt-8 sm:pt-0">
     <img
-      class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+      class="h-56 w-full object-cover sm:h-auto md:h-auto lg:w-full lg:h-full"
       src="/images/office1.webp"
       alt="Header"
     />

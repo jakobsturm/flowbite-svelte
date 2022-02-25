@@ -1,7 +1,7 @@
 <script>
   import { page } from "$app/stores";
 
-  export let sitename = "Svelte Flow";
+  export let sitename = "Flowbite Svelte";
   export let logo = "/images/mkdir-logo.webp";
   export let textsize = "sm";
   export let menus = [

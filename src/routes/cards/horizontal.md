@@ -3,14 +3,14 @@ layout: doc
 ---
 
 <script>
-  import { HorizontalCard } from "svelte-flow";
+  import { HorizontalCard } from "flowbite-svelte";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Horizontal Card: Setup</h1>
 
 ```svelte
 <script>
-  import { HorizontalCard } from "svelte-flow";
+  import { HorizontalCard } from "flowbite-svelte";
 </script>
 ```
 

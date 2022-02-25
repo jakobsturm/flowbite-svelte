@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { DropdownNavbar } from "svelte-flow";
+  import { DropdownNavbar } from "flowbite-svelte";
 
   let menus = [
     {
@@ -77,7 +77,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { DropdownNavbar } from "svelte-flow";
+  import { DropdownNavbar } from "flowbite-svelte";
 
   let menus = [
     {

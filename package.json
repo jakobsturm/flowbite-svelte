@@ -1,5 +1,5 @@
 {
-  "name": "svelte-flow",
+  "name": "Flowbite Svelte Demo",
   "version": "0.5.4",
   "description": "Svelte +  Flowbite/TailwindCSS  components",
   "author": {
@@ -7,8 +7,8 @@
     "email": "connect@codewithshin.com",
     "url": "https://blog.codewithshin.com"
   },
-  "bugs": "https://github.com/shinokada/svelte-flow/issues",
-  "homepage": "https://github.com/shinokada/svelte-flow",
+  "bugs": "https://github.com/shinokada/flowbite-svelte/issues",
+  "homepage": "https://github.com/shinokada/flowbite-svelte",
   "license": "MIT",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -23,6 +23,7 @@
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.4.2",
+    "flowbite-svelte": "^0.6.0",
     "mdsvex": "^0.10.5",
     "postcss": "^8.4.5",
     "postcss-load-config": "^3.1.1",
@@ -30,7 +31,6 @@
     "prismjs": "^1.26.0",
     "svelte": "^3.44.0",
     "svelte-collapse": "^0.0.4",
-    "svelte-flow": "^0.5.4",
     "svelte-preprocess": "^4.10.2",
     "svelte2tsx": "^0.4.14",
     "tailwindcss": "^3.0.12"
@@ -51,7 +51,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/shinokada/svelte-flow"
+    "url": "https://github.com/shinokada/flowbite-svelte"
   },
   "dependencies": {
     "flowbite": "^1.3.2"

@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import {BadgeLink} from 'svelte-flow'
+  import {BadgeLink} from 'flowbite-svelte'
   let link="/"
 </script>
 
@@ -12,14 +12,14 @@ layout: doc
 
 ```svelte
 <script>
-  import {BadgeLink} from 'svelte-flow'
+  import {BadgeLink} from 'flowbite-svelte'
   let link="/"
 </script>
 ```
 
 <h2 class="text-2xl w-full text-gray-900 dark:text-white my-8">Props</h2>
 
-```svelte
+```js
 let textSize = "text-xs"; // text-sm
 let name = "Read more"; 
 let color = "blue"; // gray | red | green | yellow | indigo | purple | pink

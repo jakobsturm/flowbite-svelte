@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { GradientDuotoneButton } from "svelte-flow";
+  import { GradientDuotoneButton } from "flowbite-svelte";
 </script>
 
 

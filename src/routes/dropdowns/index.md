@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { Dropdown } from "svelte-flow";
+  import { Dropdown } from "flowbite-svelte";
   let items = [
     {
       link: "/",

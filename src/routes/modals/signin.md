@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { SignInModal, ModalButton, modalIdStore } from "svelte-flow";
+  import { SignInModal, ModalButton, modalIdStore } from "flowbite-svelte";
 
   const closeModal = () => {
     modalIdStore.update((value) => {
@@ -21,7 +21,7 @@ layout: doc
 <p class="dark:text-white text-base">Import SignInModal, ModalButton components and set variables in the script tag.</p>
 
 ```svelte
-import { SignInModal, ModalButton, modalIdStore } from "svelte-flow";
+import { SignInModal, ModalButton, modalIdStore } from "flowbite-svelte";
 
 let signinId = "signin-modal2";
 let btnSignInName = "Sign In Modal";

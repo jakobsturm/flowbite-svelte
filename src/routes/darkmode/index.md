@@ -8,7 +8,7 @@ layout: doc
 
 ```html
 <script>
-import { DarkMode } from "svelte-flow";
+import { DarkMode } from "flowbite-svelte";
 </script>
 
 <Darkmode />
@@ -24,7 +24,7 @@ let btnClass = "text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg
 
 ```html
 <script>
-import { Darkmode } from "svelte-flow";
+import { Darkmode } from "flowbite-svelte";
 
 let btnClass="Add your class here"
 </script>

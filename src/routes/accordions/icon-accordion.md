@@ -4,8 +4,8 @@ layout: doc
 
 
 <script>
-  import { Accordion } from "svelte-flow";
-  import { AccordionItem } from "svelte-flow";
+  import { Accordion } from "flowbite-svelte";
+  import { AccordionItem } from "flowbite-svelte";
   import { ArchiveIconOutline, BeakerIconOutline } from "@codewithshin/svelte-heroicons";
 </script>
 
@@ -93,8 +93,8 @@ npm i @codewithshin/svelte-heroicons
 
 ```svelte
 <script>
-  import { Accordion } from "svelte-flow";
-  import { AccordionItem } from "svelte-flow";
+  import { Accordion } from "flowbite-svelte";
+  import { AccordionItem } from "flowbite-svelte";
   import { ArchiveIconOutline, BeakerIconOutline } from "@codewithshin/svelte-heroicons";
 </script>
 

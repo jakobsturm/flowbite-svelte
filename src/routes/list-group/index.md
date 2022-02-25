@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { List } from "svelte-flow";
+  import { List } from "flowbite-svelte";
   import {
     AdjustmentsIconSolid,
     UserCircleIconSolid,
@@ -71,7 +71,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { List } from "svelte-flow";
+  import { List } from "flowbite-svelte";
 
   let lists = [
     {
@@ -110,7 +110,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { List } from "svelte-flow";
+  import { List } from "flowbite-svelte";
   import {
     AdjustmentsIconSolid,
     UserCircleIconSolid,

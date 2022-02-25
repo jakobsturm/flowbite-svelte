@@ -1,5 +1,5 @@
 <script>
-  import { Card } from "svelte-flow";
+  import { Card } from "flowbite-svelte";
 </script>
 
 <div class="container flex flex-wrap mt-8 mx-auto justify-center">

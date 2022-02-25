@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { Alert, BorderAlert, InfoAlert } from "svelte-flow";
+  import { Alert, BorderAlert, InfoAlert } from "flowbite-svelte";
 </script>
 
 <h1 class="text-3xl w-full text-gray-900 dark:text-white my-8">Alert: Setup</h1>
@@ -14,7 +14,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 
 ```svelte
 <script>
-  import { Alert, BorderAlert, InfoAlert } from "svelte-flow";
+  import { Alert, BorderAlert, InfoAlert } from "flowbite-svelte";
 </script>
 ```
 

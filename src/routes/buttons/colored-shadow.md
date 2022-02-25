@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { ColorShadowButton } from "svelte-flow";
+  import { ColorShadowButton } from "flowbite-svelte";
 </script>
 
 <h1 class="text-3xl w-full mb-8 text-gray-900 dark:text-white">Colored Shadow</h1>

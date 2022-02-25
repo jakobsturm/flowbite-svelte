@@ -3,7 +3,7 @@ layout: doc
 ---
 
 <script>
-  import { PillTabs } from "svelte-flow";
+  import { PillTabs } from "flowbite-svelte";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white">Pill Tabs</h1>
@@ -14,7 +14,7 @@ layout: doc
 
 ```svelte
 <script>
-  import { PillTabs } from "svelte-flow";
+  import { PillTabs } from "flowbite-svelte";
 </script>
 
 <PillTabs />
