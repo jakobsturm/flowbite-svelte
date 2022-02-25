@@ -8,10 +8,12 @@ export let accordions = [
   { url: "accordions/icon-accordion", name: "Icon accordion" },
 ];
 
+export let alerts = [
+  { url: "alerts/default-alert", name: "Alert" },
+  { url: "alerts/border-alert", name: "Border alert" },
+  { url: "alerts/information-alert", name: "Information alert" },
+];
 
-// export let alerts = [
-//   { url: "alerts", name: "Alerts" },
-// ];
 export let badges = [
   { url: "badges/default", name: "Badges" },
   { url: "badges/badge-icon", name: "Badges with icon" },
@@ -29,9 +31,10 @@ export let buttons = [
   { url: "buttons/rounded", name: "Rounded" },
 ];
 
-// export let buttonGroups = [
-//   { url: "buttongroups/index", name: "Button groups" }
-// ];
+export let buttonGroups = [
+  { url: "buttongroups/default", name: "Button group" },
+  { url: "buttongroups/outline", name: "Outline" },
+];
 
 export let cards = [
   { url: "cards/card", name: "Card" },

@@ -11,10 +11,10 @@
 
   import {
     accordions,
-    // alerts,
+    alerts,
     badges,
     buttons,
-    // buttonGroups,
+    buttonGroups,
     cards,
     // darkmode,
     // icons,
@@ -87,6 +87,9 @@
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4"><a href="/alerts" rel="external">Alerts</a></h3>
+    {#each alerts as { url, name, rel }}
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
+    {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4"><a href="/badges" rel="external">Badges</a></h3>
@@ -98,6 +101,9 @@
     <h3 class="text-base pb-4">
       <a href="/button-groups" rel="external">Button groups</a>
     </h3>
+    {#each buttonGroups as { url, name, rel }}
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
+    {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4">
