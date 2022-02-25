@@ -21,6 +21,7 @@ let id
 let id
 let duration=0.2
 let easing="ease"
+let id = null;
 ```
 
 <h2 class="text-2xl w-full dark:text-white my-4">Slot names: AccordionItem</h2>

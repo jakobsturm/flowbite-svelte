@@ -32,8 +32,8 @@ export let buttons = [
 ];
 
 export let buttonGroups = [
-  { url: "buttongroups/default", name: "Button group" },
-  { url: "buttongroups/outline", name: "Outline" },
+  { url: "button-groups/default", name: "Button group" },
+  { url: "button-groups/outline", name: "Outline" },
 ];
 
 export let cards = [

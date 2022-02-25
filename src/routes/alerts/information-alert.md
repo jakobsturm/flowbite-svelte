@@ -22,7 +22,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 <h2 class="text-2xl w-full text-gray-900 dark:text-white">InfoAlert Default Props</h2>
 
 ```js
-let color = "blue";
+let color = "blue"; // gray | red | yellow | green | indigo | purple | pink 
 let alertId = "alert-additional-content-1";
 let infoLink = false;
 let closeBtn = false;
