@@ -1,6 +1,5 @@
 <script>
   import "../app.css";
-  import "flowbite/dist/flowbite.css";
   import { DarkMode, Badge } from "flowbite-svelte";
   import {
     Aside,
