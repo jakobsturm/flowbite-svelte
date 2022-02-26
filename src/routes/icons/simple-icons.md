@@ -21,12 +21,12 @@ npm i -D @codewithshin/svelte-simpleicons
 
 <div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6 h-72">
 
-<FacebookIcon className="h-4 w-4 w-full" />
-<GithubIcon />  
-<FacebookIcon className="h-8 w-8 w-full" />
-<GithubIcon className="h-10 w-10 w-full" />
-<GitIcon className="h-12 w-12 w-full" />
-<GitIcon className="h-24 w-24 w-full" />
+<FacebookIcon className="h-4 w-4 w-full" fill="#4287f5" />
+<GithubIcon fill="#66f5fa" />  
+<FacebookIcon className="h-8 w-8 w-full" fill="#02fa0b" />
+<GithubIcon className="h-10 w-10 w-full" fill="#6e7070" />
+<GitIcon className="h-12 w-12 w-full" fill="#bc02fa" />
+<GitIcon className="h-24 w-24 w-full" fill="#fa0202" />
 
 </div>
 
@@ -35,12 +35,13 @@ npm i -D @codewithshin/svelte-simpleicons
 import { FacebookIcon, GithubIcon, GitIcon } from '@codewithshin/svelte-simpleicons';
 </script>
 
-<FacebookIcon className="h-4 w-4 w-full" />
-<GithubIcon />  
-<FacebookIcon className="h-8 w-8 w-full" />
-<GithubIcon className="h-10 w-10 w-full" />
-<GitIcon className="h-12 w-12 w-full" />
-<GitIcon className="h-24 w-24 w-full" />
+<FacebookIcon className="h-4 w-4 w-full" fill="#4287f5" />
+<GithubIcon fill="#66f5fa" />  
+<FacebookIcon className="h-8 w-8 w-full" fill="#02fa0b" />
+<GithubIcon className="h-10 w-10 w-full" fill="#6e7070" />
+<GitIcon className="h-12 w-12 w-full" fill="#bc02fa" />
+<GitIcon className="h-24 w-24 w-full" fill="#fa0202" />
+
 ```
 
 <h1 class="text-3xl w-full dark:text-white pb-8">References</h1>

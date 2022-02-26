@@ -97,10 +97,6 @@ let buttons = [
 ];
 ```
 
-```svelte
-<ButtonGroup buttons={buttons1}/>
-```
-
 <h2 class="text-2xl w-full dark:text-white mt-8">Outline default</h2>
 
 <div
