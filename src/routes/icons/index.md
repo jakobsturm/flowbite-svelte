@@ -13,7 +13,7 @@
   <div class="p-4">
     <Card
       img="/images/icons.webp"
-      header="SIMPLE_ICONS"
+      header="SIMPLE ICONS"
       link="/icons/simple-icons"
     />
   </div>

@@ -81,16 +81,6 @@
   </div>
   <div class="p-4">
     <Card
-      img="/images/buttons.webp"
-      alt="Buttons"
-      header="BUTTONS"
-      link="/buttons"
-      btnColor="red"
-      btnLabel="Go to Buttons"
-    />
-  </div>
-  <div class="p-4">
-    <Card
       img="/images/buttongroups.webp"
       alt="Button Groups"
       header="BUTTON GROUPS"
@@ -99,6 +89,17 @@
       btnLabel="Go to Button groups"
     />
   </div>
+  <div class="p-4">
+    <Card
+      img="/images/buttons.webp"
+      alt="Buttons"
+      header="BUTTONS"
+      link="/buttons"
+      btnColor="red"
+      btnLabel="Go to Buttons"
+    />
+  </div>
+
   <div class="p-4">
     <Card
       img="/images/cards.webp"
