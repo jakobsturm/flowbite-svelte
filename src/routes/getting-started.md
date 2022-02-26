@@ -36,17 +36,6 @@ npm i -D svelte-preprocess
 npm i -D flowbite-svelte
 ```
 
-<p class="dark:text-white">Add the following in the script tag in the __layout.svelte:</p>
-
-```html
-<script>
-  import "../app.css";
-  import "flowbite/dist/flowbite.css";
-</script>
-
-<slot />
-```
-
 <p class="dark:text-white">Update tailwind.config.cjs:</p>
 
 ```js
@@ -55,5 +44,16 @@ const config = {
     "./src/**/*.{html,js,svelte,ts}",
     "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}",
   ],
-  ...
+
+  theme: {
+    extend: {},
+  },
+
+  plugins: [
+    require('flowbite/plugin')
+  ],
+  darkMode: 'class',
+};
+
+module.exports = config;
 ```
