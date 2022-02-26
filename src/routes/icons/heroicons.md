@@ -38,20 +38,12 @@ let viewBox = "0 0 24 24"
 <div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
 
 <AdjustmentsIconSolid className="h-10 w-10 text-blue-500 dark:text-blue-300" />
-
-<BellIconOutline  className="h-10 w-10 text-blue-500 dark:text-purple-300" />
-
-<BriefcaseIconSolid  className="h-10 w-10 text-blue-500 dark:text-indigo-300" />
-
-<ChartSquareBarIconSolid className="h-10 w-10 text-blue-500 dark:text-red-300" />
-
-
-<TicketIconOutline className="h-10 w-10 text-blue-500 dark:text-yellow-300" />
-
-<CameraIconOutline className="h-10 w-10 text-red-500 dark:text-white" />
-
+<BellIconOutline  className="h-10 w-10 text-red-500 dark:text-purple-300" />
+<BriefcaseIconSolid  className="h-10 w-10 text-green-500 dark:text-indigo-300" />
+<ChartSquareBarIconSolid className="h-10 w-10 text-purple-500 dark:text-red-300" />
+<TicketIconOutline className="h-10 w-10 text-pink-500 dark:text-yellow-300" />
+<CameraIconOutline className="h-10 w-10 text-indigo-500 dark:text-white" />
 <BellIconSolid className="h-10 w-10 text-gray-500 dark:text-blue-500" />
-
 <ChevronLeftIconSolid
   className="h-10 w-10 text-yellow-300 dark:text-white"
 />
@@ -71,12 +63,13 @@ import {
 } from "@codewithshin/svelte-heroicons";
 </script>
 
-<TicketIconOutline className="h-10 w-10 text-blue-500 dark:text-yellow-300" />
-
-<CameraIconOutline className="h-10 w-10 text-red-500 dark:text-white" />
-
+<AdjustmentsIconSolid className="h-10 w-10 text-blue-500 dark:text-blue-300" />
+<BellIconOutline  className="h-10 w-10 text-red-500 dark:text-purple-300" />
+<BriefcaseIconSolid  className="h-10 w-10 text-green-500 dark:text-indigo-300" />
+<ChartSquareBarIconSolid className="h-10 w-10 text-purple-500 dark:text-red-300" />
+<TicketIconOutline className="h-10 w-10 text-pink-500 dark:text-yellow-300" />
+<CameraIconOutline className="h-10 w-10 text-indigo-500 dark:text-white" />
 <BellIconSolid className="h-10 w-10 text-gray-500 dark:text-blue-500" />
-
 <ChevronLeftIconSolid
   className="h-10 w-10 text-yellow-300 dark:text-white"
 />
