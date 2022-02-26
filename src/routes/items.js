@@ -73,9 +73,9 @@ export let navbar = [
   { url: "navbars/dropdown", name: "Dropdown" },
 ];
 
-export let spins = [
-  { url: "spins/spin", name: "Spin" },
-  { url: "spins/button-spin", name: "Button spin" },
+export let spinners = [
+  { url: "spinners/default", name: "Spinner" },
+  { url: "spinners/button-spinner", name: "Button spinner" },
 ];
 
 export let tabs = [

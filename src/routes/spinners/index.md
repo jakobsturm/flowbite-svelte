@@ -5,16 +5,16 @@
 <div class="container flex flex-wrap mt-8 mx-auto justify-center">
   <div class="p-4">
     <Card
-      img="/images/spins.webp"
-      header="SPIN"
-      link="/spins/default"
+      img="/images/spinners.webp"
+      header="SPINNER"
+      link="/spinners/default"
     />
   </div>
   <div class="p-4">
     <Card
-      img="/images/spins.webp"
-      header="BUTTON SPIN"
-      link="/spins/button-spin"
+      img="/images/spinners.webp"
+      header="BUTTON SPINNER"
+      link="/spinners/button-spinner"
     />
   </div>
 </div>

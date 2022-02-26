@@ -21,7 +21,7 @@
     // list_group,
     modals,
     navbar,
-    spins,
+    spinners,
     svelteflows,
     tabs,
     topMenus,
@@ -161,9 +161,9 @@
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4">
-      <a href="/tabs" rel="external">Spins <Badge name="NEW" /></a>
+      <a href="/spinners" rel="external">Spinners <Badge name="NEW" /></a>
     </h3>
-    {#each spins as { url, name, rel }}
+    {#each spinners as { url, name, rel }}
       <SidebarList {url} {name} {rel} {sideBarListClass} />
     {/each}
   </Nav>

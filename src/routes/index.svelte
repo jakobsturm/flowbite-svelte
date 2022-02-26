@@ -171,6 +171,15 @@
   </div>
   <div class="p-4">
     <Card
+      img="/images/spinners.webp"
+      alt="Spinners"
+      header="SPINNERS"
+      link="/spinners"
+      btnLabel="Go to Spinners"
+    />
+  </div>
+  <div class="p-4">
+    <Card
       img="/images/tabs.webp"
       alt="Tabs"
       header="TABS"
