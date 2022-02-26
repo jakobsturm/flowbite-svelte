@@ -73,14 +73,17 @@ export let navbar = [
   { url: "navbars/dropdown", name: "Dropdown" },
 ];
 
+export let spins = [
+  { url: "spins/spin", name: "Spin" },
+  { url: "spins/button-spin", name: "Button spin" },
+];
+
 export let tabs = [
   { url: "tabs/default-tabs", name: "Default" },
   { url: "tabs/interactive-tabs", name: "Interactive" },
   { url: "tabs/multiple-interactive-tabs", name: "Multiple Interactive" },
   { url: "tabs/pilltabs", name: "Pilltabs" },
 ];
-
-
 
 export let topMenus = [
   { link: "/", name: "Home" },

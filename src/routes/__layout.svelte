@@ -1,7 +1,7 @@
 <script>
   import "../app.css";
   import "flowbite/dist/flowbite.css";
-  import { DarkMode } from "flowbite-svelte";
+  import { DarkMode, Badge } from "flowbite-svelte";
   import {
     Aside,
     Nav,
@@ -21,6 +21,7 @@
     // list_group,
     modals,
     navbar,
+    spins,
     svelteflows,
     tabs,
     topMenus,
@@ -92,14 +93,18 @@
     {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/badges" rel="external">Badges</a></h3>
+    <h3 class="text-base pb-4">
+      <a href="/badges" rel="external">Badges <Badge name="NEW" /></a>
+    </h3>
     {#each badges as { url, name, rel }}
       <SidebarList {url} {name} {rel} {sideBarListClass} />
     {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4">
-      <a href="/button-groups" rel="external">Button groups</a>
+      <a href="/button-groups" rel="external"
+        >Button groups <Badge name="NEW" /></a
+      >
     </h3>
     {#each buttonGroups as { url, name, rel }}
       <SidebarList {url} {name} {rel} {sideBarListClass} />
@@ -126,18 +131,20 @@
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4">
-      <a href="/dropdowns" rel="external">Dropdowns</a>
+      <a href="/dropdowns" rel="external">Dropdowns <Badge name="NEW" /></a>
     </h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
-    <h3 class="text-base pb-4"><a href="/icons" rel="external">Icons</a></h3>
+    <h3 class="text-base pb-4">
+      <a href="/icons" rel="external">Icons <Badge name="NEW" /></a>
+    </h3>
     {#each icons as { url, name, rel }}
       <SidebarList {url} {name} {rel} {sideBarListClass} />
     {/each}
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4">
-      <a href="/list-group" rel="external">List group</a>
+      <a href="/list-group" rel="external">List group <Badge name="NEW" /></a>
     </h3>
   </Nav>
   <Nav {navClass} {navDivClass}>
@@ -149,6 +156,14 @@
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4"><a href="/navbars" rel="external">Navbar</a></h3>
     {#each navbar as { url, name, rel }}
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
+    {/each}
+  </Nav>
+  <Nav {navClass} {navDivClass}>
+    <h3 class="text-base pb-4">
+      <a href="/tabs" rel="external">Spins <Badge name="NEW" /></a>
+    </h3>
+    {#each spins as { url, name, rel }}
       <SidebarList {url} {name} {rel} {sideBarListClass} />
     {/each}
   </Nav>
