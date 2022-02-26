@@ -8,13 +8,21 @@ layout: doc
 
 <h1 class="text-3xl w-full dark:text-white mb-4">Simple-icons</h1>
 
-<p class=" dark:text-white">Svelte-simpleicons has more than 2100 icons and they are mono-color icons.</p>
+<p class=" dark:text-white">Svelte-simpleicons has more than 2100 icons and they are monochrome icons.</p>
 
 
 <h2 class="text-2xl w-full dark:text-white mt-8">Installing Simple-icons</h2>
 
 ```sh
 npm i -D @codewithshin/svelte-simpleicons
+```
+
+<h2 class="text-2xl w-full dark:text-white mt-8">Props</h2>
+
+```js
+let className = "h-6 w-6"
+let viewBox = "0 0 24 24"
+let fill = "#000000"
 ```
 
 <h2 class="text-2xl w-full dark:text-white mt-8">Examples</h2>

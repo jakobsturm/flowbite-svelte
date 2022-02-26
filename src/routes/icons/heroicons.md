@@ -24,10 +24,18 @@ You can find all the icon names from the <a class="text-blue-600 hover:underline
 
 <p class=" dark:text-white">If you need brand icons, use <a class="text-blue-600 hover:underline dark:text-blue-500" href="https://github.com/shinokada/svelte-simpleicons" target="_blank">Svelte-simpleicons</a>.</p>
 
+<h2 class="text-2xl w-full dark:text-white mt-8">Props</h2>
+
+```js
+let className = "h-6 w-6"
+let viewBox = "0 0 24 24"
+```
+
 <h2 class="text-2xl w-full dark:text-white mt-8">Examples</h2>
 
-<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
+<p class=" dark:text-white">If you want to change the color, add it to className.</p>
 
+<div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
 
 <AdjustmentsIconSolid className="h-10 w-10 text-blue-500 dark:text-blue-300" />
 
