@@ -28,7 +28,7 @@ let alertId = "alert-border-1";
 let closeBtn = false;
 ```
 
-<h1 class="text-2xl w-full text-gray-900 dark:text-white my-8">Border Alert Examples</h1>
+<h2 class="text-2xl w-full text-gray-900 dark:text-white my-8">Border Alert Examples</h2>
 
 ```svelte
 <BorderAlert color="blue">

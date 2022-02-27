@@ -26,7 +26,7 @@ layout: doc
 </script>
 ```
 
-<h1 class="text-3xl w-full text-gray-900 dark:text-white">Button handler</h1>
+<h2 class="text-2xl w-full text-gray-900 dark:text-white">Button handler</h2>
 
 <p class="dark:text-white">You can use on:click to listen to the event. Add your event handler.</p>
 
