@@ -6,7 +6,7 @@ layout: doc
   import { Button } from "flowbite-svelte";
   import { goto }from '$app/navigation';
   const btn1 = ()=>{
-    alert('This redirect to the home page.')
+    alert('This redirects to the home page.')
     goto('/')
   }
   const btn2 = ()=>{
@@ -35,7 +35,7 @@ layout: doc
   import { Button } from "flowbite-svelte";
   import { goto }from '$app/navigation';
   const btn1 = ()=>{
-    alert('This redirect to the home page.')
+    alert('This redirects to the home page.')
     goto('/')
   }
   const btn2 = ()=>{
