@@ -1,5 +1,10 @@
 <script>
   import { Card, Button } from "flowbite-svelte";
+  import { goto } from "$app/navigation";
+
+  const handleClick = () => {
+    goto("/getting-started");
+  };
 </script>
 
 <div class="relative bg-white overflow-hidden mt-8 mx-auto dark:bg-gray-800">
@@ -27,9 +32,11 @@
           </p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div class="mt-3 sm:mt-0 sm:ml-3">
-              <a href="/getting-started">
-                <Button textSize="text-lg" name="Getting started" />
-              </a>
+              <Button
+                textSize="text-lg"
+                name="Getting started"
+                on:click={handleClick}
+              />
             </div>
           </div>
         </div>
