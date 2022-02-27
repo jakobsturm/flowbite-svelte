@@ -16,7 +16,9 @@ layout: doc
   let btnSignInColor = "blue";
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">Sign-in Modals: Setup</h1>
+<h1 class="text-3xl w-full dark:text-white">Sign-in Modals</h1>
+
+<h2 class="text-2xl w-full dark:text-white">Set up</h2>
 
 <p class="dark:text-white text-base">Import SignInModal, ModalButton components and set variables in the script tag.</p>
 

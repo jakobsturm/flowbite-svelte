@@ -42,7 +42,9 @@ layout: doc
   };
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">Extra-large Modals: Setup</h1>
+<h1 class="text-3xl w-full dark:text-white">Extra-large Modals</h1>
+
+<h2 class="text-2xl w-full dark:text-white">Setup</h2>
 
 <p class="dark:text-white my-4">Import ExtraLargeModal, ModalButton, modalIdStor components and set variables in the script tag. Add `closeModal` method if you want to close the modal in a button.</p>
 

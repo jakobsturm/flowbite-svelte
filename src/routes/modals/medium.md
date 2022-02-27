@@ -40,7 +40,9 @@ layout: doc
 </script>
 
 
-<h1 class="text-3xl w-full dark:text-white">Medium Modals: Setup</h1>
+<h1 class="text-3xl w-full dark:text-white">Medium Modals</h1>
+
+<h2 class="text-2xl w-full dark:text-white">Set up</h2>
 
 <p class="dark:text-white my-4">Import MediumModal, ModalButton, modalIdStor components and set variables in the script tag. Add `closeModal` method if you want to close the modal in a button.</p>
 

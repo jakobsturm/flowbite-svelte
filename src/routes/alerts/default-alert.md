@@ -6,7 +6,9 @@ layout: doc
   import { Alert, BorderAlert, InfoAlert } from "flowbite-svelte";
 </script>
 
-<h1 class="text-3xl w-full text-gray-900 dark:text-white my-8">Alert: Setup</h1>
+<h1 class="text-3xl w-full text-gray-900 dark:text-white my-8">Alert</h1>
+
+<h2 class="text-2xl w-full dark:text-white">Set up</h2>
 
 <p class="text-gray-900 dark:text-white">
 Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.

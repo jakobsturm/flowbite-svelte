@@ -18,7 +18,9 @@ layout: doc
   };
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">Ecommerce Card: Setup</h1>
+<h1 class="text-3xl w-full dark:text-white">Ecommerce Card</h1>
+
+<h2 class="text-2xl w-full dark:text-white">Set up</h2>
 
 ```svelte
 <script>

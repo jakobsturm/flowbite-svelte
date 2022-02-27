@@ -6,7 +6,9 @@ layout: doc
   import { Card } from "flowbite-svelte";
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">Card: Setup</h1>
+<h1 class="text-3xl w-full dark:text-white">Card</h1>
+
+<h2 class="text-2xl w-full dark:text-white">Set up</h2>
 
 <p class="dark:text-white">Import Card in the script tag.</p>
 

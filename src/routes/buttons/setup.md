@@ -12,9 +12,9 @@ layout: doc
   }
 </script>
 
-<h1 class="text-3xl w-full dark:text-white mb-8">Buttons: Setup</h1>
+<h1 class="text-3xl w-full dark:text-white mb-8">Buttons</h1>
 
-
+<h2 class="text-2xl w-full dark:text-white">Set up</h2>
 
 <p class="dark:text-white">Import Button in the script tag.</p>
 

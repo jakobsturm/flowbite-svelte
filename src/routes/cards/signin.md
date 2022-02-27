@@ -6,7 +6,9 @@ layout: doc
   import { SignInCard } from "flowbite-svelte";
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">SignInCard: Setup</h1>
+<h1 class="text-3xl w-full dark:text-white">SignInCard</h1>
+
+<h2 class="text-2xl w-full dark:text-white">Set up</h2>
 
 <p class="dark:text-white">Import SignInCard in the script tag.</p>
 
