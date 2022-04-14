@@ -94,6 +94,9 @@ export { default as TableData } from './paginations/TableData.svelte'
 // Progressbar
 export { default as Progressbar } from'./progressbars/Progressbar.svelte'
 
+// Rating
+export { default as Rating } from'./rating/Rating.svelte'
+
 // Sidebar
 export { default as Sidebar } from './sidebars/Sidebar.svelte'
 

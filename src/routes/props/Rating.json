@@ -1,0 +1,8 @@
+{
+  "props": [
+    ["type", " string ", " 'default'"],
+    ["stars", " number ", " '5'"],
+    ["text", " string ", " ' '"],
+    ["textUrl", " string ", " '#'"]
+  ]
+}
